@@ -201,6 +201,8 @@ class BaseModel(ABC):
                 if self.opt.one2four:
                     if 'fg_position' in state_dict:
                         del state_dict['fg_position']
+                    if 'slots_init_fg' in state_dict:
+                        del state_dict['slots_init_fg']
                 incompatible = net.load_state_dict(state_dict, strict=False)
                 if incompatible.missing_keys and not self.opt.continue_train: # if continue train, ignore missing keys
                     for key in incompatible.missing_keys:
