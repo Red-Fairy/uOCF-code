@@ -75,7 +75,7 @@ If you find this work useful in your research, please consider citing:
 ```
 
 ## Acknowledgement
-Our code framework is adapted from [uOCF](https://github.com/KovenYu/uORF). If you find any problem, please feel free to open an issue or contact the [Rundong Luo](mailto:rundongluo2002@gmail.com)
+Our code framework is adapted from [uOCF](https://github.com/KovenYu/uORF). If you find any problem, please feel free to open an issue or contact the Rundong Luo at [rundongluo2002@gmail.com](mailto:rundongluo2002@gmail.com).
 
 
 
