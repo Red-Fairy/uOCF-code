@@ -18,7 +18,7 @@
 
 ---
 
-This the official repository of the paper **Unsupervised Discovery of Object-Centric Neural Fields**.
+This is the official repository of the paper **Unsupervised Discovery of Object-Centric Neural Fields**.
 
 **Authors:** Rundong Luo<sup>* </sup>, Hong-Xing "Koven" Yu<sup>*</sup>, Jiajun Wu from Stanford University
 
