@@ -43,17 +43,25 @@ We provide the pretrained models for uOCF. The models are available at [link (Go
 
 ## Testing
 To test the pretrained model, please run the following command:
-```bash scripts/DATASET-NAME/test-MODE.sh```,
+```
+bash scripts/DATASET-NAME/test-MODE.sh
+```
 where DATASET-NAME is one of (Room-Texture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
 Note that the DATAROOT on the first line of the script should be set to the path of the dataset.
 
 ## Training
-(Optional, we provided pre-trained checkpoints) Run the following command to train the model from stage 1
-```bash scripts/room-texture/train-stage1-MODE.sh```.
+(Optional, we have provided pre-trained checkpoints) Run the following command to train the model from stage 1
+```
+bash scripts/room-texture/train-stage1-MODE.sh
+```
+where MODE is one of (plane, noplane).
+
 Note that sometimes it yields undisired results (e.g., either the foreground or the background is totally black). If this happens after training for 1 epoch (~1000 iterations), you may stop the training and re-run the command.
 
 Then run the following command to train the model from stage 2
-```bash scripts/DATASET-NAME/train-stage2-MODE.sh```.
+```
+bash scripts/DATASET-NAME/train-stage2-MODE.sh
+```
 
 ## Citation
 If you find this work useful in your research, please consider citing:
