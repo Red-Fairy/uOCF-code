@@ -38,6 +38,10 @@ Please run `conda env create -f environment.yml` to install the dependencies.
 ## Datasets
 We gathered three datasets (Room-Texture, Kitchen-Matte, Kitchen-Shiny) for evaluating uOCF. The datasets are available at [link (Google Drive)](https://drive.google.com/drive/folders/1v_lZhiI32rvKjUDQVb5B7KHMpNLgQ2P_?usp=drive_link).
 
+### Dataset organization
+
+Each file begins with the `prefix {id:05d}_sc{scene_id:04d}_az{az_id:02d}`, where suffix includes `.png` for the image file, `_RT.txt` for the camera pose, and `_intrinsics.txt` for the camera intrinsics. The focal length and principal point are normalized, i.e., $f'_x = f_x / W, f'_y = f_y / H, c'_x = c_x * 2 / W - 1, c'_y = c_y * 2 / H - 1$, where $H$ and $W$ are the height and width of the image, respectively.
+
 When running the scripts, please specify the path to the dataset by modifying the DATAROOT on the first line.
 
 ## Pretrained Models
