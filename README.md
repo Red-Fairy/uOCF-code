@@ -20,11 +20,11 @@
 
 This the official repository of the paper **Unsupervised Discovery of Object-Centric Neural Fields**.
 
+**Authors:** Rundong Luo<sup>* </sup>, Hong-Xing "Koven" Yu<sup>*</sup>, Jiajun Wu from Stanford University
+
 ![teaser](https://red-fairy.github.io/uOCF/assets/images/teaser.png)
 
 For more results, please visit our [project website](https://red-fairy.github.io/uOCF/).
-
-**Authors:** Rundong Luo<sup>* </sup>, Hong-Xing "Koven" Yu<sup>*</sup>, Jiajun Wu from Stanford University
 
 ## Abstract
 We study inferring 3D object-centric scene representations from a single image. While recent methods have shown potential in unsupervised 3D object discovery from simple synthetic images, they fail to generalize to real-world scenes with visually rich and diverse objects. This limitation stems from their object representations, which entangle objects' intrinsic attributes like shape and appearance with extrinsic, viewer-centric properties such as their 3D location. To address this bottleneck, we propose Unsupervised discovery of Object-Centric neural Fields (uOCF). uOCF focuses on learning the intrinsics of objects and models the extrinsics separately. Our approach significantly improves systematic generalization, thus enabling unsupervised learning of high-fidelity object-centric scene representations from sparse real-world images. To evaluate our approach, we collect three new datasets, including two real kitchen environments. Extensive experiments show that uOCF enables unsupervised discovery of visually rich objects from a single real image, allowing applications such as 3D object segmentation and scene manipulation. Notably, uOCF demonstrates zero-shot generalization to unseen objects from a single real image.
