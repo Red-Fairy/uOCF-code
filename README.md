@@ -20,7 +20,7 @@
 
 This the official repository of the paper **Unsupervised Discovery of Object-Centric Neural Fields**.
 
-!(teaser)[https://red-fairy.github.io/uOCF/assets/images/teaser.png]
+![teaser](https://red-fairy.github.io/uOCF/assets/images/teaser.png)
 
 For more results, please visit our [project website](https://red-fairy.github.io/uOCF/).
 
