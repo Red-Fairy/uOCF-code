@@ -38,6 +38,8 @@ Please run `conda env create -f environment.yml` to install the dependencies.
 ## Datasets
 We gathered three datasets (Room-Texture, Kitchen-Matte, Kitchen-Shiny) for evaluating uOCF. The datasets are available at [link (Google Drive)](https://drive.google.com/drive/folders/1v_lZhiI32rvKjUDQVb5B7KHMpNLgQ2P_?usp=drive_link).
 
+When running the scripts, please specify the path to the dataset by modifying the DATAROOT on the first line.
+
 ## Pretrained Models
 We provide the pretrained models for uOCF. The models are available at [link (Google Drive)](https://drive.google.com/drive/folders/1zg-uSyFYCFWui3zyO6XXmkh8wlq5ht0Y?usp=drive_link).
 
@@ -47,7 +49,6 @@ To test the pretrained model, please run the following command:
 bash scripts/DATASET-NAME/test-MODE.sh
 ```
 where DATASET-NAME is one of (Room-Texture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
-Note that the DATAROOT on the first line of the script should be set to the path of the dataset.
 
 ## Training
 (Optional, we have provided pre-trained checkpoints) Run the following command to train the model from stage 1
@@ -62,6 +63,7 @@ Then run the following command to train the model from stage 2
 ```
 bash scripts/DATASET-NAME/train-stage2-MODE.sh
 ```
+where DATASET-NAME is one of (Room-Texture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
 
 ## Citation
 If you find this work useful in your research, please consider citing:
