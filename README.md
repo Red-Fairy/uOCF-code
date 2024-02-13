@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://arxiv.org/abs/2402.07376" target="_blank">
-    <img src="https://img.shields.io/badge/arXiv-red"></a>
+    <img src="https://img.shields.io/badge/arXiv:2402.07376-red"></a>
     <!-- <a href="https://arxiv.org/abs/2307.08779" target="_blank">
     <img src="https://img.shields.io/badge/Paper-orange" alt="paper"></a> -->
     <!-- <a href="https://red-fairy.github.io/ZeroShotDayNightDA-Webpage/supp.pdf" target="_blank">
@@ -20,7 +20,7 @@
 
 This is the official repository of the paper **Unsupervised Discovery of Object-Centric Neural Fields**.
 
-**Authors:** Rundong Luo<sup>* </sup>, Hong-Xing "Koven" Yu<sup>*</sup>, Jiajun Wu from Stanford University
+**Authors:** Rundong Luo<sup>*</sup>, Hong-Xing "Koven" Yu<sup>*</sup>, Jiajun Wu (<sup>*</sup> Equal contribution)
 
 ![teaser](https://red-fairy.github.io/uOCF/assets/images/teaser.png)
 
