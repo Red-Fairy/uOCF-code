@@ -20,7 +20,7 @@
 
 This is the official repository of the paper **Unsupervised Discovery of Object-Centric Neural Fields**.
 
-**Authors:** Rundong Luo<sup>*</sup>, Hong-Xing "Koven" Yu<sup>*</sup>, Jiajun Wu (<sup>*</sup> Equal contribution)
+**Authors:** Rundong Luo<sup>* </sup>, Hong-Xing Koven Yu<sup>* </sup>, Jiajun Wu (<sup>* </sup> Equal contribution)
 
 ![teaser](https://red-fairy.github.io/uOCF/assets/images/teaser.png)
 
