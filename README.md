@@ -5,7 +5,7 @@
 
 
 <div align="center">
-    <a href="https://arxiv.org/abs/" target="_blank">
+    <a href="https://arxiv.org/abs/2402.07376" target="_blank">
     <img src="https://img.shields.io/badge/arXiv-red"></a>
     <!-- <a href="https://arxiv.org/abs/2307.08779" target="_blank">
     <img src="https://img.shields.io/badge/Paper-orange" alt="paper"></a> -->
@@ -75,7 +75,7 @@ If you find this work useful in your research, please consider citing:
 @article{uOCF,
   title={Unsupervised Discovery of Object-Centric Neural Fields},
   author={Luo, Rundong and Yu, Hong-Xing and Wu, Jiajun},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2402.07376},
   year={2024}
 }
 ```
