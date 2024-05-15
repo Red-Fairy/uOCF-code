@@ -44,7 +44,7 @@ Each file begins with the prefix `{id:05d}_sc{scene_id:04d}_az{az_id:02d}`, and 
 
 When running the scripts, please specify the path to the dataset by modifying the DATAROOT on the first line.
 
-Note that you need to use the MiDAS depth estimator the generate the depth files for each input images. Refer to their repo[https://github.com/isl-org/MiDaS] for more details.
+Note that we need to generate a depth image for each input image, and the MiDAS depth estimator is used in our experiments. Refer to their repo[https://github.com/isl-org/MiDaS] for more details.
 
 ## Pretrained Models
 We provide the pretrained models for uOCF. The models are available at [link (Google Drive)](https://drive.google.com/drive/folders/1zg-uSyFYCFWui3zyO6XXmkh8wlq5ht0Y?usp=drive_link).
