@@ -36,7 +36,7 @@ We study inferring 3D object-centric scene representations from a single image. 
 Please run `conda env create -f environment.yml` to install the dependencies.
 
 ## Datasets
-We gathered three datasets (Room-Texture, Kitchen-Matte, Kitchen-Shiny) for evaluating uOCF. The datasets are available at [link (Google Drive)](https://drive.google.com/drive/folders/1v_lZhiI32rvKjUDQVb5B7KHMpNLgQ2P_?usp=drive_link).
+We gathered four datasets (Room-Texture, Room-Furniture, Kitchen-Matte, Kitchen-Shiny) for evaluating uOCF. The datasets are available at [link (Google Drive)](https://drive.google.com/file/d/1xwa5kHCJQq3l7Q8LG4s9cqqlM_BxhFgB/view?usp=sharing).
 
 ### Dataset organization
 
@@ -47,14 +47,14 @@ When running the scripts, please specify the path to the dataset by modifying th
 Note that we need to generate a depth image for each input image, and the MiDAS depth estimator is used in our experiments. Refer to their repo[https://github.com/isl-org/MiDaS] for more details.
 
 ## Pretrained Models
-We provide the pretrained models for uOCF. The models are available at [link (Google Drive)](https://drive.google.com/drive/folders/1zg-uSyFYCFWui3zyO6XXmkh8wlq5ht0Y?usp=drive_link).
+We provide the pretrained models for uOCF. The models are available at [link (Google Drive)](https://drive.google.com/file/d/167v5JYomSxgrIyFnTNP3YnCpJQjaQHAi/view?usp=sharing).
 
 ## Testing
 To test the pretrained model, please run the following command:
 ```
 bash scripts/DATASET-NAME/test-MODE.sh
 ```
-where DATASET-NAME is one of (Room-Texture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
+where DATASET-NAME is one of (Room-Texture, Room-Furniture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
 
 ## Training
 (Optional, we have provided pre-trained checkpoints) Run the following command to train the model from stage 1
@@ -69,7 +69,7 @@ Then run the following command to train the model from stage 2
 ```
 bash scripts/DATASET-NAME/train-stage2-MODE.sh
 ```
-where DATASET-NAME is one of (Room-Texture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
+where DATASET-NAME is one of (Room-Texture, Room-Furniture, Kitchen-Matte, Kitchen-Shiny), and MODE is one of (plane, noplane).
 
 ## Citation
 If you find this work useful in your research, please consider citing:
