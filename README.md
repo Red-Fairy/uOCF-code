@@ -65,7 +65,7 @@ where MODE is one of (plane, noplane).
 
 Note that sometimes it yields undisired results (e.g., either the foreground or the background is totally black). If this happens after training for 1 epoch (~1000 iterations), you may stop the training and re-run the command.
 
-Then run the following command to train the model from stage 2
+Then run the following command to train the model from stage 2, note that Room-Furniture use the same stage 1 model as Room-Texture.
 ```
 bash scripts/DATASET-NAME/train-stage2-MODE.sh
 ```
