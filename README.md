@@ -1,14 +1,14 @@
 <h2 align="center">
   <b>Unsupervised Discovery of Object-Centric Neural Fields</b>
 
-  <b><i>arXiv 2024</i></b>
+  <b><i>TMLR 2025</i></b>
 
 
 <div align="center">
     <a href="https://arxiv.org/abs/2402.07376" target="_blank">
     <img src="https://img.shields.io/badge/arXiv:2402.07376-red"></a>
-    <!-- <a href="https://arxiv.org/abs/2307.08779" target="_blank">
-    <img src="https://img.shields.io/badge/Paper-orange" alt="paper"></a> -->
+    <a href="https://openreview.net/forum?id=ScEv13W2f1" target="_blank">
+    <img src="https://img.shields.io/badge/TMLR:2025-orange" alt="paper"></a>
     <!-- <a href="https://red-fairy.github.io/ZeroShotDayNightDA-Webpage/supp.pdf" target="_blank">
     <img src="https://img.shields.io/badge/Supplementary-green" alt="supp"></a> -->
     <a href="https://red-fairy.github.io/uOCF/" target="_blank">
@@ -77,8 +77,8 @@ If you find this work useful in your research, please consider citing:
 @article{uOCF,
   title={Unsupervised Discovery of Object-Centric Neural Fields},
   author={Luo, Rundong and Yu, Hong-Xing and Wu, Jiajun},
-  journal={arXiv preprint arXiv:2402.07376},
-  year={2024}
+  journal={TMLR},
+  year={2025}
 }
 ```
 
