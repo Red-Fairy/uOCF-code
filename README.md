@@ -36,7 +36,7 @@ We study inferring 3D object-centric scene representations from a single image. 
 Please run `conda env create -f environment.yml` to install the dependencies.
 
 ## Datasets
-We gathered four datasets (Room-Texture, Room-Furniture, Kitchen-Matte, Kitchen-Shiny) for evaluating uOCF. The datasets are available at [link (Google Drive)](https://drive.google.com/file/d/1xwa5kHCJQq3l7Q8LG4s9cqqlM_BxhFgB/view?usp=sharing).
+We gathered four datasets (Room-Texture, Room-Furniture, Kitchen-Matte, Kitchen-Shiny) for evaluating uOCF. The datasets are available at [link (Google Drive)](https://drive.google.com/drive/folders/1v_lZhiI32rvKjUDQVb5B7KHMpNLgQ2P_?usp=drive_link).
 
 ### Dataset organization
 
